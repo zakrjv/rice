@@ -1,0 +1,54 @@
+.ingredients__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ingredients__characteristic th,
+.ingredients__table tr:last-child td {
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.ingredients__characteristic th:first-child {
+    text-align: start;
+}
+
+.ingredients__characteristic th {
+    font-weight: 700;
+    font-size: 12px;
+    text-align: end;
+
+    border-top: 1px solid #E5E7EB;
+}
+
+.ingredients__ingredient {
+    font-size: 14px;
+}
+
+.ingredients__ingredient td,
+.ingredients__characteristic th {
+    padding: 6px 8px;
+}
+
+.ingredients__ingredient:first-child td {
+    padding-top: 12px;
+}
+
+.ingredients__ingredient:last-child td {
+    padding-bottom: 12px;
+}
+
+.ingredients__quantity,
+.ingredients__input {
+    text-align: end;
+}
+
+.ingredients__input input {
+    margin: 0;
+}
+
+
+@media (min-width: 320px) {
+    .ingredients__table {
+        width: 296px;
+    }
+}
